@@ -1,0 +1,6 @@
+framework module Pods_device_whereTests {
+  umbrella header "Pods-device-whereTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
