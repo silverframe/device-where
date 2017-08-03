@@ -23,7 +23,9 @@
 		CBAC93551F2DBA02003DF5E2 /* DeviceOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC93541F2DBA02003DF5E2 /* DeviceOverviewViewController.swift */; };
 		CBAC93571F2DBD2A003DF5E2 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC93561F2DBD2A003DF5E2 /* Device.swift */; };
 		CBAC93591F2DBD76003DF5E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC93581F2DBD76003DF5E2 /* User.swift */; };
-		CBAC935B1F2DBECD003DF5E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBAC935A1F2DBECD003DF5E2 /* GoogleService-Info.plist */; };
+		CBAC935D1F335040003DF5E2 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC935C1F335040003DF5E2 /* LandingPageViewController.swift */; };
+		CBAC935F1F335051003DF5E2 /* AccountRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC935E1F335051003DF5E2 /* AccountRegistrationViewController.swift */; };
+		CBAC93611F335060003DF5E2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC93601F335060003DF5E2 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +74,9 @@
 		CBAC93541F2DBA02003DF5E2 /* DeviceOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceOverviewViewController.swift; sourceTree = "<group>"; };
 		CBAC93561F2DBD2A003DF5E2 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		CBAC93581F2DBD76003DF5E2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		CBAC935A1F2DBECD003DF5E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBAC935C1F335040003DF5E2 /* LandingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		CBAC935E1F335051003DF5E2 /* AccountRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountRegistrationViewController.swift; sourceTree = "<group>"; };
+		CBAC93601F335060003DF5E2 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +157,9 @@
 				CBAC93501F2DB673003DF5E2 /* DeviceCell.swift */,
 				CBAC93521F2DB9EC003DF5E2 /* MyDevicesViewController.swift */,
 				CBAC93541F2DBA02003DF5E2 /* DeviceOverviewViewController.swift */,
-				CBAC935A1F2DBECD003DF5E2 /* GoogleService-Info.plist */,
+				CBAC935C1F335040003DF5E2 /* LandingPageViewController.swift */,
+				CBAC935E1F335051003DF5E2 /* AccountRegistrationViewController.swift */,
+				CBAC93601F335060003DF5E2 /* LogInViewController.swift */,
 			);
 			path = "device-where";
 			sourceTree = "<group>";
@@ -306,7 +312,6 @@
 			files = (
 				CBAC932B1F2DB2AB003DF5E2 /* LaunchScreen.storyboard in Resources */,
 				CBAC93281F2DB2AB003DF5E2 /* Assets.xcassets in Resources */,
-				CBAC935B1F2DBECD003DF5E2 /* GoogleService-Info.plist in Resources */,
 				CBAC93261F2DB2AB003DF5E2 /* Main.storyboard in Resources */,
 				CBAC934F1F2DB661003DF5E2 /* DeviceCell.xib in Resources */,
 			);
@@ -457,11 +462,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBAC93551F2DBA02003DF5E2 /* DeviceOverviewViewController.swift in Sources */,
+				CBAC935F1F335051003DF5E2 /* AccountRegistrationViewController.swift in Sources */,
 				CBAC93531F2DB9EC003DF5E2 /* MyDevicesViewController.swift in Sources */,
 				CBAC93231F2DB2AB003DF5E2 /* ViewController.swift in Sources */,
+				CBAC935D1F335040003DF5E2 /* LandingPageViewController.swift in Sources */,
 				CBAC93571F2DBD2A003DF5E2 /* Device.swift in Sources */,
 				CBAC93211F2DB2AB003DF5E2 /* AppDelegate.swift in Sources */,
 				CBAC93511F2DB673003DF5E2 /* DeviceCell.swift in Sources */,
+				CBAC93611F335060003DF5E2 /* LogInViewController.swift in Sources */,
 				CBAC93591F2DBD76003DF5E2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
